@@ -91,12 +91,12 @@ h1.title {
 
 .one {
     grid-area: one;
-    background-image: url("/images/bg1.jpg");
+    background-image: url("../images/bg1.jpg");
 }
 
 .six {
     grid-area: six;
-    background-image: url("/images/bg6.jpg");
+    background-image: url("../images/bg6.jpg");
 }
 
 .one,
@@ -108,22 +108,22 @@ h1.title {
 
 .two {
     grid-area: two;
-    background-image: url("/images/bg2.jpg");
+    background-image: url("../images/bg2.jpg");
 }
 
 .three {
     grid-area: three;
-    background-image: url("/images/bg3.jpg");
+    background-image: url("../images/bg3.jpg");
 }
 
 .four {
     grid-area: four;
-    background-image: url("/images/bg4.jpg");
+    background-image: url("../images/bg4.jpg");
 }
 
 .five {
     grid-area: five;
-    background-image: url("/images/bg5.jpg");
+    background-image: url("../images/bg5.jpg");
 }
 
 .video {
