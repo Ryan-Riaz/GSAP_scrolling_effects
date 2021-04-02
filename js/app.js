@@ -15,7 +15,7 @@ gsap.to(".one", {
         pin: "#main",
         scrub: 3,
     },
-    left: "-600px",
+    x: "-600px",
     opacity: 0,
 });
 
@@ -26,7 +26,7 @@ gsap.to(".six", {
         pin: "#main",
         scrub: 3,
     },
-    right: "-600px",
+    x: "600px",
     opacity: 0,
 });
 
@@ -37,7 +37,7 @@ gsap.to([".two", ".three"], {
         pin: "#main",
         scrub: 2,
     },
-    left: "-300px",
+    x: "-300px",
     opacity: 0,
 });
 
@@ -48,6 +48,6 @@ gsap.to([".four", ".five"], {
         pin: "#main",
         scrub: 2,
     },
-    right: "-300px",
+    x: "300px",
     opacity: 0,
 });
